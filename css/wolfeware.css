@@ -1,0 +1,157 @@
+*{ 
+    box-sizing: border-box; 
+}
+
+body {
+    background-image: url('background.jpg');    
+    color: #000000;
+    background-size: cover; 
+    background-position: center 20%; 
+    padding: 10%; 
+    margin: 0;
+}
+
+
+header {    
+    height: 150px;
+    background-color: #f46e00;
+    background-image: url(icon.png);
+    background-repeat: no-repeat;
+    background-position: left;    
+    background-size: contain;
+}
+
+h1 {    
+    text-align: center;    
+    padding-top: 50px;
+    padding-left: 2em;
+    
+}
+
+h1 a:link { 
+    color: #000000;
+    text-decoration: none;
+    
+} 
+
+h1 a:visited { 
+    color: #000000; 
+    text-decoration: none;
+}
+
+h1 a:hover { 
+    color: #FFFFFF;
+    text-decoration: none;
+} 
+
+h2 {    
+    text-align: left;
+    
+}
+
+nav {     
+    background-color: #a9a5a4;
+    float: none;
+    font-weight: bold;
+    padding: 1em;
+    width: 160px;
+    
+}
+
+nav a {    
+    border: 3px outset #CCCCCC;
+    display: block;
+    margin-bottom: 1em;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;    
+}
+
+nav a:link { 
+    color: #000000; 
+} 
+
+nav a:visited { 
+    color: #000000; 
+}
+
+nav a:hover { 
+    color: #FFFFFF; 
+    border: 3px inset #333333; 
+} 
+
+nav ul { 
+     
+    list-style-type: none;
+    padding-left: 0; 
+}
+
+main {        
+        
+    margin: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;    
+    width: 90%;
+    height: auto;
+}
+
+.clear { 
+    clear: both;
+    
+} 
+
+.floatleft { 
+    float: left;
+    margin-right: 4em;
+    margin-bottom: 1em;
+    }
+
+.onehalf { 
+    float: right;
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 50%;
+}
+
+.onethird { 
+    float: left;
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 33%;
+}
+
+.studio {
+    font-style: italic;
+}
+
+.content-area {
+  display: flex;
+}
+
+#heroimages{                          
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+#wrapper {    
+    background-color: #F5F5F5;   
+    margin: auto;
+    
+    width: 60%;
+    position: relative;
+    top: 0%;
+    min-width: 100px;
+    max-width: 1200px; 
+    height: auto;
+   
+}
+
+footer {
+    background-color:  #f46e00;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding: 1em;
+    
+}
