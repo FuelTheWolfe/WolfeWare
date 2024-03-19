@@ -1,9 +1,10 @@
+/* Jason Wolfe 03/18/2024 */
 *{ 
     box-sizing: border-box; 
 }
 
 body {
-    background-image: url('background.jpg');    
+    background-image: url('../images/background.jpg');
     color: #000000;
     background-size: cover; 
     background-position: center 20%; 
@@ -13,9 +14,9 @@ body {
 
 
 header {    
-    height: 150px;
+    height: 125px;
     background-color: #f46e00;
-    background-image: url(icon.png);
+    background-image: url('images/icon.png');
     background-repeat: no-repeat;
     background-position: left;    
     background-size: contain;
@@ -23,7 +24,7 @@ header {
 
 h1 {    
     text-align: center;    
-    padding-top: 50px;
+    padding-top: 0.75em;
     padding-left: 2em;
     
 }
